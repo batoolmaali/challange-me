@@ -1,5 +1,6 @@
 # Challange Me!!
-Hello! Thanks for your effort and congratulations on getting to this point 🎉🎉 HTML and CSS are great together, right ?!
+Hi! Thanks for your effort and congratulations on getting to this point 🎉🎉 HTML and CSS are great together, right ?!
+
 It's time to hit the ground and take on some challenges 🤓
 You will find below some challenges, you can pick one and clone the design using HTML and CSS
 
