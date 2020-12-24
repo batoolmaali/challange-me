@@ -1,0 +1,72 @@
+<html>
+    <style>
+.container{
+    width: 800px;
+    height: 600px;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    position: relative;
+
+}
+
+#botton{
+   
+width: 300px;
+height: 40px;
+background-color: blue;
+margin: auto;
+margin-top: 0px;
+display: flex;
+}
+ </style>
+ <body>
+ <div style="margin: auto; width: 500px; height: 400px;"> <img id="myimage"src= 'https://jooinn.com/images/red-daisy-6.jpg' style="width: 500px; height: 400px; align-items: center;">  </div>   
+ <div class="container">
+    <div class="selectdiv" style=" position: absolute; top:10px; right: 10px;">
+   
+        <select>
+                <option> english </option>
+                <option>arabic</option>
+               
+        </select>
+    </div>
+     
+      
+ <div class="top"><h1> log in to your account</h1> 
+    <input type="text" id="name" name="name" placeholder="name" style="width: 300px;"> <br> <br>
+    <input type="text" id="email" name="email" placeholder="email" style="width: 300px;"> <br> <br>
+    <input type="text" id="password" name="password" placeholder="*****" style="width: 300px;"> <br> <br>
+    
+    <div class="one" ><input type="checkbox" id="password" name="password" value="keep me loggen on to 30day">
+    <label for="password">keep me loggen on to 30day </label></div>
+    <div class="two"><p> <a href="https://www.google.com/" target="blank" > forget password? </a></p></div>
+
+<button type="button" id="button"  onclice="newdoc()" style="background-color:darkcyan; color: white; width: 300px; height: 30px;">
+</div>
+
+    </body>
+
+    <script>
+        var x= document.getElementById("myimage"),
+        
+         images = [
+        'https://th.bing.com/th/id/OIP.nzi50Mn_dliNGdgzkKr0fgHaE8?pid=Api&rs=1',
+       'https://pixnio.com/free-images/flora-plants/flowers/pink-flower.jpg',
+        'https://jooinn.com/images/red-daisy-6.jpg'
+        ]
+     
+         setInterval(function() {
+         var myRrandomNum = Math.floor(Math.random()*images.length);
+             console.log("interval")
+             x.src= images[myRrandomNum];
+        
+         }, 1000);
+         function newDoc() {
+  window.location.assign("batool2.html")
+     
+     </script>
+
+</html>
